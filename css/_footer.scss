@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    margin-top: 150px;
+    .f-furniture {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .f-logo {
+            width: 25%;
+            // margin: auto;
+            h1{
+                color: $bc;
+            }
+            .icon-box {
+                margin-top: 30px;
+                a {
+                    position: relative;
+                    background-color: $whc;
+                    padding: 6px 10px;
+                    border-radius: 1mm;
+                    overflow: hidden;
+                    color: $bc;
+                    &::before {
+                        content: "";
+                        color: $whc;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 100%;
+                        left: 0%;
+                        width: 100%;
+                        height: 0%;
+                        background-color: $bc;
+                        border-radius: 1mm;
+                        transition: 0.1s ease-in-out;
+                        visibility: hidden;
+                    }
+                    &:hover {
+                        &::before {
+                            top: 0%;
+                            height: 100%;
+                            visibility: visible;
+                        }
+                    }
+                }
+                .twt{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f099";
+                    }
+                }
+                .inst{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f16d";
+                    }
+                }
+                .ytb{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f167";
+                    }
+                }
+                .fb-m{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f39f";
+                    }
+                }
+                .link{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f0e1";
+                    }
+                }
+                .bol{
+                    &::before{
+                        font: var(--fa-font-solid);
+                        content: "\f0e7";
+                    }
+                }
+            }
+        }
+        .f-f{
+            width: 60%;
+            .f-f-f{
+                width: 20%;
+                // margin: 30px 100px;
+                p{
+                    &:hover{
+                        cursor: pointer;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

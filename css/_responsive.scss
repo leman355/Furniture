@@ -1,0 +1,382 @@
+@media (max-width: 576px) {
+    .header {
+        .top-header {
+            display: none;
+        }
+        .bottom-header {
+            .home {
+                display: none;
+            }
+            .bars {
+                display: block;
+                color: $bc;
+                width: 25%;
+                font-size: 15px;
+            }
+            .logo {
+                width: 25%;
+            }
+            .icons {
+                width: 20%;
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .etrafli {
+        font-size: 20px;
+        padding: 5px 13px;
+    }
+    .slide-show {
+        h1 {
+            font-size: 2.5rem;
+        }
+        h4 {
+            font-size: 17px;
+            margin: 0 0 20px 0;
+        }
+        .text-box {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text-box2 {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .popular {
+        .categories {
+            width: 100%;
+            .top-box {
+                p {
+                    width: 100%;
+                }
+            }
+            .boxes {
+                .bbox1 {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .sale {
+        .best {
+            width: 100%;
+            .best-sale {
+                padding: 0;
+                .text-left {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .all {
+        width: 100%;
+        .all-sales {
+            .furniture-images {
+                .furniture-box {
+                    .ft-img-box {
+                        .ht {
+                            display: none;
+                        }
+                        .etr-m {
+                            display: none;
+                        }
+                        .sbt {
+                            display: none;
+                        }
+                        .res-icons {
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ql {
+        .ql-str {
+            width: 100%;
+            .ql-str-box {
+                .image13 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .footer {
+        .f-furniture {
+            width: 95%;
+            .f-logo {
+                width: 100%;
+            }
+            .f-f {
+                margin-top: 50px;
+                width: 100%;
+                .f-f-f {
+                    margin: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .header {
+        .top-header {
+            display: none;
+        }
+        .bottom-header {
+            .home {
+                display: none;
+            }
+            .bars {
+                display: block;
+                color: $bc;
+                width: 5%;
+                font-size: 15px;
+            }
+            .logo {
+                width: 25%;
+            }
+            .icons {
+                width: 20%;
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .etrafli {
+        font-size: 20px;
+        padding: 5px 13px;
+    }
+    .slide-show {
+        h1 {
+            font-size: 2.5rem;
+        }
+        h4 {
+            font-size: 17px;
+            margin: 0 0 20px 0;
+        }
+        .text-box {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text-box2 {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .popular {
+        .categories {
+            width: 100%;
+            .top-box {
+                p {
+                    width: 100%;
+                }
+            }
+            .boxes {
+                .bbox1 {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .sale {
+        .best {
+            width: 100%;
+            .best-sale {
+                padding: 0;
+                .text-left {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .all {
+        width: 100%;
+        .all-sales {
+            .furniture-images {
+                .furniture-box {
+                    .ft-img-box {
+                        .ht {
+                            display: none;
+                        }
+                        .etr-m {
+                            display: none;
+                        }
+                        .sbt {
+                            display: none;
+                        }
+                        .res-icons {
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ql {
+        .ql-str {
+            width: 100%;
+            .ql-str-box {
+                .image13 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .footer {
+        .f-furniture {
+            width: 95%;
+            .f-logo {
+                width: 100%;
+            }
+            .f-f {
+                margin-top: 50px;
+                .f-f-f {
+                    margin: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        .top-header {
+            display: none;
+        }
+        .bottom-header {
+            .home {
+                display: none;
+            }
+            .bars {
+                display: block;
+                color: $bc;
+                width: 5%;
+                font-size: 22px;
+            }
+            .logo {
+                width: 25%;
+            }
+            .icons {
+                width: 20%;
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .etrafli {
+        font-size: 25px;
+        padding: 7px 17px;
+    }
+    .slide-show {
+        h1 {
+            font-size: 3.5rem;
+        }
+        h4 {
+            font-size: 25px;
+            margin: 0 0 20px 0;
+        }
+        .text-box {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text-box2 {
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .popular {
+        .categories {
+            width: 100%;
+            .top-box {
+                p {
+                    width: 100%;
+                }
+            }
+            .boxes {
+                .bbox1 {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .sale {
+        .best {
+            width: 100%;
+            .best-sale {
+                padding: 0;
+                text-align: center;
+                .text-left {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .all {
+        width: 100%;
+        .all-sales {
+            .furniture-images {
+                .furniture-box {
+                    .ft-img-box {
+                        .ht {
+                            display: none;
+                        }
+                        .etr-m {
+                            display: none;
+                        }
+                        .sbt {
+                            display: none;
+                        }
+                        .res-icons {
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ql {
+        .ql-str {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .footer {
+        .f-furniture {
+            width: 95%;
+            .f-logo {
+                width: 95%;
+                margin: auto;
+            }
+            .f-f {
+                margin-top: 50px;
+                width: 100%;
+                .f-f-f {
+                    margin: 40px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+}

@@ -1,0 +1,192 @@
+// bars-----------------------------------
+
+
+
+
+
+
+ul {
+    margin: 0 !important;
+}
+.header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    a {
+        text-decoration: none;
+    }
+    font-size: 18px;
+    .top-header {
+        background-color: $bc;
+        .top-left {
+            ul {
+                li {
+                    a {
+                        color: $whc;
+                        display: block;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                        i {
+                            color: $gc;
+                            margin: 0 8px;
+                        }
+                        .sss {
+                            color: $whc;
+                        }
+                    }
+                    &.dm-left {
+                        position: relative;
+                        ul {
+                            li {
+                                a {
+                                    color: $whc;
+                                }
+                            }
+                        }
+                        &:hover {
+                            background-color: $obc;
+                            .drop-menu {
+                                opacity: 1;
+                                visibility: visible;
+                                transform: translateY(0px);
+                            }
+                        }
+                        .drop-menu {
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 0.3s ease-in;
+                            position: absolute;
+                            border-radius: 8px;
+                            transform: translateY(15px);
+                            width: 120px;
+                            top: 100%;
+                            left: 0%;
+                            background-color: $bc;
+                            box-shadow: 0 0 10px 0 $blc;
+                            overflow: hidden;
+                            a {
+                                padding: 10px;
+                                border-bottom: 1px solid $blc;
+                                &:hover {
+                                    background-color: $obc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .top-right {
+            ul {
+                li {
+                    a {
+                        display: block;
+                        color: $whc;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                        i {
+                            margin-right: 8px;
+                            color: $gc;
+                        }
+                    }
+                    &:hover {
+                        background-color: $obc;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-header {
+        .bars {
+            display: none;
+        }
+        .logo {
+            width: 10%;
+        }
+        .home {
+            width: 60%;
+            .homeul {
+                li {
+                    padding: 40px 20px;
+                    a {
+                        display: block;
+                        color: $bc;
+                        font-weight: 500;
+                        text-decoration: none;
+                        position: relative;
+                        i {
+                            margin-left: 5px;
+                            transition: 0.3s ease-in;
+                        }
+                        &:hover {
+                            &::before {
+                                width: 100%;
+                            }
+                        }
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            background-color: $obc;
+                            width: 0%;
+                            height: 1px;
+                            top: 105%;
+                            transition: 0.3s;
+                            left: 0%;
+                        }
+                    }
+                    &.ana-s{
+                        text-align: center;
+                        position: relative;
+                        &:hover {
+                            .ana-s-d-menu {
+                                opacity: 1;
+                                visibility: visible;
+                                transform: translateY(0px);
+                            }
+                        }
+                        .ana-s-d-menu {
+                            z-index: 1;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: 0.3s ease-in;
+                            position: absolute;
+                            border-radius: 8px;
+                            transform: translateY(15px);
+                            width: 100%;
+                            top: 100%;
+                            left: 0%;
+                            color: $blc;
+                            background-color: $bc;
+                            box-shadow: 0 0 10px 0 $blc;
+                            overflow: hidden;
+                            li{
+                                padding: 10px 20px;
+                            }
+                            a {
+                                color: $whc;
+                                padding: 0 10px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        .icons {
+            width: 10%;
+            a {
+                color: $bc;
+                margin-left: 17px;
+                font-size: 20px;
+                transition: 0.3s ease-in-out;
+                &:hover {
+                    color: $obc;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@import "_responsive";
